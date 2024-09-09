@@ -7,7 +7,7 @@ const products=data.products
 const express=require("express")
 const server=express()
 const morgan=require("morgan")
-
+ 
 //body parser
 server.use(express.json())
 server.use(morgan("default"))
@@ -78,12 +78,6 @@ server.delete('/products/:id',(req,res)=>{
 
 
  
-// server.get('/',(req,res)=>{
-//     // res.sendStatus(404)
-//     // res.json(product);
-//     res.status(201).send('hello')
-//     // res.sendFile('F:\Nikhil\Practice\Node\Chapter-3\index.html');
-// })
 
 server.listen(8080,()=>{
     console.log('listening to port 8080')
