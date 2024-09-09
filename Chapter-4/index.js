@@ -77,7 +77,7 @@ server.delete('/products/:id',(req,res)=>{
 
 
 
-
+ 
 // server.get('/',(req,res)=>{
 //     // res.sendStatus(404)
 //     // res.json(product);
